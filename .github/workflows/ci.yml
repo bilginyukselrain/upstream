@@ -29,6 +29,6 @@ jobs:
               "client_payload": {
                 "commit_sha": "${{github.sha}}",
                 "env":"dev",
-                "regions": ["tur", "bhr", "uae"]
+                "regions": "tur bhr uae"
                 }
               }'
